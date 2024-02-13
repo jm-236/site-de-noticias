@@ -4,7 +4,7 @@
 
 .header{
     background: url(imagens/fundo.png) repeat-x;
-    position: fixed;
+    position: absolute;
     left: -5px;
     top: -1%;
     width: 101%;
@@ -34,6 +34,9 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.navegacao{
     position: relative;
     top: 40px;
     background: #E10039;
@@ -67,9 +70,49 @@ ul{
 }
 
 .conteudo-principal{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 75%;
     position: relative;
     top: 233px;
     margin: auto;
+}
+
+h1{
+    background: #294970;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+}
+.coluna-1{
+    width: 20%;
+}
+.entrevistados{
+    padding: 5px;
+    padding-left: 30px;
+    font-size: 17px;
+}
+input{
+    width: 60%;
+    position: relative;
+    bottom: 36px;
+    left: 50px;
+}
+form>p{
+    width: 30%;
+    position: relative;
+    left: -1px;
+}
+
+.botao{
+    color: #ffffff;
+    background: #E10039;
+    position: relative;
+    left: -1px;
+    bottom: 15px;
+    font-size: 17px;
+    width: 40%;
+    border: 1px solid #B60033;
+}
+.news{
+    margin-top: 100px;
 }
