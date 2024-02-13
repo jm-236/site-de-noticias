@@ -1,0 +1,75 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    background: url(imagens/fundo.png) repeat-x;
+    position: fixed;
+    left: -5px;
+    top: -1%;
+    width: 101%;
+    height: 233px;
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+}
+
+.conteudos-header{
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 75%;
+    height: 70%;
+    position: relative;
+    top: 3%;
+}
+
+.brasil{
+    height: 100%;
+    float: right;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40px;
+    background: #E10039;
+}
+
+#ultimo>a{
+    text-decoration: none;
+    color: white; 
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #E10039 no-repeat;
+    background-position: right;
+}
+
+.link-cabecalho>a{
+    text-decoration: none;
+    color: white; 
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: url(imagens/divisor.png) #E10039 no-repeat;
+    background-position: right;
+    font-size: 105%;
+}
+
+.link-cabecalho>a:hover, #ultimo>a:hover{
+    background: #B60033;
+}
+
+.conteudo-principal{
+    border: 1px solid red;
+    width: 75%;
+    position: relative;
+    top: 233px;
+    margin: auto;
+}
