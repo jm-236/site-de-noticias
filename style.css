@@ -70,8 +70,8 @@ ul{
 }
 
 .conteudo-principal{
-    /* border: 1px solid red; */
-    width: 75%;
+    border: 1px solid red;
+    width: 80%;
     position: relative;
     top: 233px;
     margin: auto;
@@ -85,6 +85,10 @@ h1{
 }
 .coluna-1{
     width: 20%;
+    border: 1px solid greenyellow;
+    float: left;
+    display: inline-block;
+    margin-right: 7.5%;
 }
 .entrevistados{
     padding: 5px;
@@ -115,4 +119,40 @@ form>p{
 }
 .news{
     margin-top: 100px;
+}
+.coluna-2{
+    width: 32%;
+    display: inline-block;
+    border: 1px solid blue;
+    float: left;
+    justify-content: center;
+}
+#doutor{
+    width: 80%;
+}
+h2{
+    background: #E10039;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 80%;
+}
+.coluna-2 p{
+    width: 80%;
+    margin-bottom: 0px;
+}
+.coluna-2 a{
+    color: #B60033;
+}
+.mininoticia img{
+    width: 40%;
+    border: 1px solid red;
+}
+.mininoticia h3{
+    color: #7282a7;
+}
+
+.mininoticia div{
+    border: 1px solid purple;
+    width: 35%;
 }
